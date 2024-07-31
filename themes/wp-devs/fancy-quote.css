@@ -1,0 +1,62 @@
+
+
+.wp-block-quote.is-style-fancy-quote  {
+    border-left-color: brown;
+}
+
+
+.wp-block-quote.is-style-fancy-quote > p {
+    color:blue;
+}
+
+.is-style-fancy-paragraph  {
+    line-height: 1.3;
+    font-family:monospace;
+}
+
+.is-style-fancy-paragraph-2  {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 2em;
+
+}
+
+
+.wp-block-group.is-style-fancy-block-group {
+    background-color: #0c0c0c;
+    padding: 20px;
+    border: 2px solid #ccc;
+}
+
+.wp-block-group.is-style-fancy-block-group:hover img{
+    opacity: 0.5;
+    transform: scale(1.05);
+    filter: brightness(80%);
+}
+
+/* .wp-block-gallery.is-style-fancy-gallery:hover img{
+    opacity: 0.5;
+
+} */
+
+/* .wp-block-gallery.is-style-fancy-gallery figure.wp-block-image:not(#individual-image) img:hover{
+    opacity: 0.3;
+} */
+.wp-block-gallery.is-style-fancy-gallery .wp-block-image {
+
+    position: relative;
+    overflow: hidden;
+}
+/* ..wp-block-gallery.has-nested-images figure.wp-block-image figcaption */
+.wp-block-gallery.is-style-fancy-gallery .wp-block-image > figcaption{
+    /* max-height: 30%;
+bottom: 0;    top: 0; */
+transition: all 2s ease-out;
+
+
+}
+.wp-block-gallery.is-style-fancy-gallery .wp-block-image:hover > figcaption{
+    color: #f00;
+    top: 0;transition: all 2s ease-out;
+    min-height: 100%;
+    /* opacity: 0; */
+}
