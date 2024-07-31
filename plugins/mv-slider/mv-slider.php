@@ -35,6 +35,8 @@ if( ! class_exists( 'MV_Slider' ) ){
     class MV_Slider{
         function __construct(){
             $this->define_constants();
+            require_once(MV_SLIDER_PATH . 'post-types/class.mv-slider-cpt.php');
+            $MV_Slider_Post_Type = new MV_Slider_Post_Type();
         }
 
         public function define_constants(){
@@ -49,6 +51,7 @@ if( ! class_exists( 'MV_Slider' ) ){
     }
     public function deactivate(){
         flush_rewrite_rules();
+        unregister_post_type( 'mv-slider' );
     }
     public function uninstall(){}
 
