@@ -44,10 +44,12 @@ if( ! class_exists( 'MV_Slider' ) ){
         }
 
     public function activate(){
-        flush_rewrite_rules();
+        // flush_rewrite_rules();
         update_option( 'rewrite_rules' , '' );
     }
-    public function deactivate(){}
+    public function deactivate(){
+        flush_rewrite_rules();
+    }
     public function uninstall(){}
 
     }

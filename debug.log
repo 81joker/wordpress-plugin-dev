@@ -18,3 +18,19 @@ Stack trace:
 [31-Jul-2024 07:05:26 UTC]   Automatic theme updates starting...
 [31-Jul-2024 07:05:26 UTC]   Automatic theme updates complete.
 [31-Jul-2024 07:05:26 UTC] Automatic updates complete.
+[31-Jul-2024 14:11:41 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, non-static method MV_Slider::deactivate() cannot be called statically in /var/www/html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/includes/plugin.php(826): do_action('deactivate_mv-s...', false)
+#3 /var/www/html/wp-admin/plugins.php(211): deactivate_plugins('mv-slider/mv-sl...', false, false)
+#4 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 324
+[31-Jul-2024 14:11:48 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, non-static method MV_Slider::deactivate() cannot be called statically in /var/www/html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/includes/plugin.php(826): do_action('deactivate_mv-s...', false)
+#3 /var/www/html/wp-admin/plugins.php(211): deactivate_plugins('mv-slider/mv-sl...', false, false)
+#4 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 324
