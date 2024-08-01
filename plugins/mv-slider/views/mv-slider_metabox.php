@@ -5,6 +5,7 @@
     //var_dump( $link_text, $link_url );?>
 
 <table class="form-table mv-slider-metabox"> 
+    <input type="hidden" name="my_slider_nonce" value="<?php echo wp_create_nonce('my_slider_nonce') ?>">
     <tr>
         <th>
             <label for="mv_slider_link_text">Link Text</label>
