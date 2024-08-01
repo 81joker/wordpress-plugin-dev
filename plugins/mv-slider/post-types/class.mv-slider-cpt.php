@@ -5,6 +5,7 @@ if ( !class_exists('MV_Slider_Post_Type') ){
         function __construct()
         {
             add_action( 'init', array($this , 'create_post_type'));
+            add_action( 'add_meta_boxes', array( $this, 'add_meta_boxes' ) );
         }
         public function create_post_type(){
               // My Slider Post Type
@@ -43,22 +44,27 @@ if ( !class_exists('MV_Slider_Post_Type') ){
                     'exclude_from_search'   => false,
                     'publicly_queryable'    => true,
                     'show_in_rest'  => true,
-                    'menu_icon' => 'dashicons-images-alt2'
+                    'menu_icon' => 'dashicons-images-alt2',
+
+                    // This is alternitive method for register meta box add_meta_boxes
+                  //'register_meta_box_cb'  =>  array( $this, 'add_meta_boxes' )
                 )
             );
         }
+        public function add_meta_boxes(){
+            // add_meta_box( $id:string, $title:string, $callback:callable, $screen:string|array|WP_Screen|null, $context:string, $priority:string, $callback_args:array|null )
+            add_meta_box(
+                'mv_slider_meta_box',
+                'Link Options',
+                array( $this, 'add_inner_meta_boxes' ),
+                'mv-slider',
+                'normal',
+                'high'
+            );
+        }
+
+        public function add_inner_meta_boxes( $post ){
+            require_once(MV_SLIDER_PATH.'views/mv-slider_metabox.php');
+        }
     }
 }
-
-// if( !class_exists( 'MV_Slider_Post_Type') ){
-//     class MV_Slider_Post_Type{
-//         function __construct(){
-//             add_action( 'init', array( $this, 'create_post_type' ) );
-//         }
-
-//         public function create_post_type(){
-
-//         }
-
-//     }
-// }

@@ -34,3 +34,30 @@ Stack trace:
 #3 /var/www/html/wp-admin/plugins.php(211): deactivate_plugins('mv-slider/mv-sl...', false, false)
 #4 {main}
   thrown in /var/www/html/wp-includes/class-wp-hook.php on line 324
+[31-Jul-2024 16:53:05 UTC] PHP Deprecated:  Function wp_update_https_detection_errors is <strong>deprecated</strong> since version 6.4.0 with no alternative available. in /var/www/html/wp-includes/functions.php on line 6085
+[31-Jul-2024 16:53:06 UTC] Automatic updates starting...
+[31-Jul-2024 16:53:07 UTC]   Automatic theme updates starting...
+[31-Jul-2024 16:53:07 UTC]   Automatic theme updates complete.
+[31-Jul-2024 16:53:07 UTC] Automatic updates complete.
+[01-Aug-2024 10:21:42 UTC] Automatic updates starting...
+[01-Aug-2024 10:21:43 UTC]   Automatic theme updates starting...
+[01-Aug-2024 10:21:44 UTC]   Automatic theme updates complete.
+[01-Aug-2024 10:21:44 UTC] Automatic updates complete.
+[01-Aug-2024 10:21:55 UTC] PHP Warning:  require_once(mv-slider_metabox.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-slider/post-types/class.mv-slider-cpt.php on line 67
+[01-Aug-2024 10:21:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'mv-slider_metabox.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-slider/post-types/class.mv-slider-cpt.php:67
+Stack trace:
+#0 /var/www/html/wp-admin/includes/template.php(1456): MV_Slider_Post_Type->add_inner_meta_boxes(Object(WP_Post), Array)
+#1 /var/www/html/wp-admin/includes/post.php(2384): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#2 /var/www/html/wp-admin/edit-form-blocks.php(319): the_block_editor_meta_boxes()
+#3 /var/www/html/wp-admin/post.php(187): require('/var/www/html/w...')
+#4 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-slider/post-types/class.mv-slider-cpt.php on line 67
+[01-Aug-2024 10:22:07 UTC] PHP Warning:  require_once(mv-slider_metabox.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-slider/post-types/class.mv-slider-cpt.php on line 67
+[01-Aug-2024 10:22:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'mv-slider_metabox.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-slider/post-types/class.mv-slider-cpt.php:67
+Stack trace:
+#0 /var/www/html/wp-admin/includes/template.php(1456): MV_Slider_Post_Type->add_inner_meta_boxes(Object(WP_Post), Array)
+#1 /var/www/html/wp-admin/includes/post.php(2384): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#2 /var/www/html/wp-admin/edit-form-blocks.php(319): the_block_editor_meta_boxes()
+#3 /var/www/html/wp-admin/post-new.php(72): require('/var/www/html/w...')
+#4 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-slider/post-types/class.mv-slider-cpt.php on line 67
