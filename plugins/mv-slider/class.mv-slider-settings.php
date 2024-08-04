@@ -14,7 +14,24 @@ if( ! class_exists( 'MV_Slider_Settings' )){
         public function admin_init(){
             // To save the slider sittings database
             // register_setting( $option_group:string, $option_name:string, $args:array )
-            register_setting('mv_slider_group' , 'mv_slider_options');
+            /*
+                    `register_setting()` هي إحدى دوال WordPress المستخدمة لتسجيل إعدادات (settings) جديدة في قاعدة بيانات موقع WordPress.
+
+                        يتم استخدامها بشكل شائع في إضافات (plugins) وقوالب (themes) لتسجيل مجموعة من الإعدادات والخيارات التي يمكن للمستخدم تخصيصها من لوحة التحكم.
+
+                        في هذا المثال الخاص:
+
+                        1. `'mv_slider_group'`: هذا هو اسم المجموعة التي ستُسجل فيها الإعدادات. يمكن استخدام أي اسم مناسب هنا.
+
+                        2. `'mv_slider_options'`: هذا هو اسم الخيار (option) الذي سيتم تسجيله في قاعدة بيانات WordPress. يمكن استخدام أي اسم مناسب هنا.
+
+                        3. `array( $this, 'mv_slider_validate' )`: هذا هو الخيار الثالث والذي يتضمن وظيفة التحقق (validation function) التي سيتم استدعاؤها عند حفظ الإعدادات.
+                         في هذه الحالة، الوظيفة `mv_slider_validate()` سيتم استدعاؤها لتحقق من صحة قيم الإعدادات قبل حفظها في قاعدة البيانات.
+
+                        بشكل عام، `register_setting()` تُستخدم لتسجيل مجموعة من الإعدادات في موقع WordPress والتي يمكن للمستخدم الوصول إليها وتخصيصها من لوحة التحكم. كما أنها تسمح بتحقق من صحة الإعدادات قبل حفظها في قاعدة البيانات.
+
+            */
+            register_setting('mv_slider_group' , 'mv_slider_options' , array( $this, 'mv_slider_validate' ) );
 
 
             add_settings_section(
@@ -132,6 +149,34 @@ if( ! class_exists( 'MV_Slider_Settings' )){
             <?php
         }
 
+        public function mv_slider_validate( $input ){
+            $new_input = array();
+            // foreach( $input as $key => $value ){
+            //     $new_input[$key] = sanitize_text_field( $value );
+            // }
+            foreach( $input as $key => $value ){
+                switch ($key){
+                    case 'mv_slider_title':
+                        if( empty( $value )){
+                            add_settings_error( 'mv_slider_options', 'mv_slider_message', 'The title field can not be left empty', 'error' );
+                            $value = 'Please, type some text';
+                        }
+                        $new_input[$key] = sanitize_text_field( $value );
+                    break;
+                    // case 'mv_slider_int':
+                    //     $new_input[$key] = absint( $value );
+                    // break;
+                    // case 'mv_slider_url':
+                    //     $new_input[$key] = esc_url( $value );
+                    // break;
+                    default:
+                        $new_input[$key] = sanitize_text_field( $value );
+                    break;
+                }
+            }
+            return $new_input;
+        }
+        
     }
 }
 
