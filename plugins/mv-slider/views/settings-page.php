@@ -21,9 +21,7 @@
         
         // settings_fields('mv_slider_group' );
         // do_settings_sections( 'mv_slider_page1' );
-
         // do_settings_sections( 'mv_slider_page2' );
-
         // Add button submit form
         /* 
         submit_button( $text:string|null, $type:string, $name:string, 
