@@ -39,6 +39,10 @@ if( ! class_exists( 'MV_Slider' ) ){
 
             require_once(MV_SLIDER_PATH . 'post-types/class.mv-slider-cpt.php');
             $MV_Slider_Post_Type = new MV_Slider_Post_Type();
+
+
+            require_once( MV_SLIDER_PATH . 'class.mv-slider-settings.php' );
+            $MV_Slider_Settings = new MV_Slider_Settings();
         }
 
         public function define_constants(){
@@ -64,7 +68,11 @@ if( ! class_exists( 'MV_Slider' ) ){
             // add_options_page(
             // add_theme_page(
             // add_plugins_page(
+
+            // This diplay page Title in Dashboard (page Title)
                 'MV Slider Options',
+
+                // This diplay menue Title in Dashboard (menue Title)
                 'MV Slider',
                 'manage_options',
                 'mv_slider_admin',
