@@ -1,0 +1,19 @@
+.mv-slider-metabox label{
+    color: #f00;
+}
+.mv-slider-metabox td{
+    padding: 5px;
+}
+.mv-slider-metabox th{
+    padding: 10px 10px 5px 0;
+}
+
+#mv_slider_link_text,
+#mv_slider_link_url{
+    color:blueviolet;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-family: bold;
+    font-size: larger;
+
+}
