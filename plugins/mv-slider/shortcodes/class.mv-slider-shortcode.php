@@ -7,7 +7,7 @@ if (! class_exists('MV_Slider_Shortcode')) {
         public function __construct()
         {
             // add_shortcode( $tag:string, $callback:callable )
-            add_shortcode( 'mv-slider', 'add_shortcode' );
+            add_shortcode( 'mv_slider', array($this,  'add_shortcode' ));
         }
 
         public function add_shortcode($atts = array() , $content = null , $tag = ''){
@@ -23,9 +23,10 @@ if (! class_exists('MV_Slider_Shortcode')) {
             // The extract function, what it does is it takes each item from this array
             // and turns it into a variable. So, for example, the id item here would be converted to the variable
             extract(
-                shortcode_atts( array(
+                shortcode_atts( 
+                    array(
                     'id'=> '',
-                    'roderby' => 'date'
+                    'orderby' => 'date'
                  ),
                 //  This is the list of attributes passed by the user in the shortcode. If the user passes any
                 //  attribute that is not on this list up here, it will be ignored, ok? And the third parameter,
@@ -42,6 +43,10 @@ if (! class_exists('MV_Slider_Shortcode')) {
                 $id = array_map('absint' , explode(',' , $id));
             }
             
+                       
+            ob_start();
+            require( MV_SLIDER_PATH . 'views/mv-slider_shortcode.php' );
+            return ob_get_clean();
         }
 
     }
