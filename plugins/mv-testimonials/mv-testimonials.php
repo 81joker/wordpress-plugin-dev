@@ -7,8 +7,8 @@
 * Version: 1.0
 * Requires at least: 5.6
 * Requires PHP: 7.0
-* Author: Marcelo Vieira
-* Author URI: https://www.codigowp.net
+* Author: Nehad Altimimi
+* Author URI: https://environs.nehaddev.com/
 * License: GPL v2 or later
 * License URI: https://www.gnu.org/licenses/gpl-2.0.html
 * Text Domain: mv-testimonials
