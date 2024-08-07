@@ -35,17 +35,17 @@ if ( !class_exists('MV_Slider_Post_Type') ){
             register_post_type(
                 'mv-slider',
                 array(
-                    'label' => 'Slider',
-                    'description'   => 'Sliders',
+                    'label' => esc_html__( 'Slider', 'mv-slider' ),
+                    'description'   => esc_html__( 'Sliders', 'mv-slider' ),
                     'labels' => array(
-                        'name'  => 'Sliders',
-                        'singular_name' => 'Slider'
+                        'name'  => esc_html__( 'Sliders', 'mv-slider' ),
+                        'singular_name' => esc_html__( 'Slider', 'mv-slider' ),
                     ),
                     'public'    => true,
                     'supports'  => array( 'title', 'editor', 'thumbnail' ),
                     'hierarchical'  => false,
                     'show_ui'   => true,
-                    'show_in_menu'  => true,
+                    'show_in_menu'  => false,
                     'menu_position' => 5,
                     'show_in_admin_bar' => true,
                     'show_in_nav_menus' => true,
@@ -60,6 +60,7 @@ if ( !class_exists('MV_Slider_Post_Type') ){
                   //'register_meta_box_cb'  =>  array( $this, 'add_meta_boxes' )
                 )
             );
+
         }
 
         // Customizing Admin Columns

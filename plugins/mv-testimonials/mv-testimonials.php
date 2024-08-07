@@ -40,7 +40,12 @@ if( !class_exists( 'MV_Testimonials' ) ){
         public function __construct() {
 
             // Define constants used througout the plugin
-            $this->define_constants();           
+            $this->define_constants();    
+            
+            require_once(MV_TESTIMONIALS_PATH . 'post-types/class.mv-testimonals-cpt.php');
+            $MV_TESTIMONIALS_Post_Type = new MV_Testimonials_Post_Type();
+            // $MV_Slider_Post_Type = new MV_Slider_Post_Type();
+
 
         }
 
@@ -65,6 +70,7 @@ if( !class_exists( 'MV_Testimonials' ) ){
          * Deactivate the plugin
          */
         public static function deactivate(){
+            unregister_post_type('mv-testimonals');
             flush_rewrite_rules();
         }
 
