@@ -1018,3 +1018,718 @@ Stack trace:
 [07-Aug-2024 09:53:02 UTC]   Automatic theme updates complete.
 [07-Aug-2024 09:53:02 UTC] Automatic updates complete.
 [07-Aug-2024 09:53:16 UTC] PHP Warning:  Undefined array key "mv_slider_title" in /var/www/html/wp-content/plugins/mv-slider/views/mv-slider_shortcode.php on line 1
+[07-Aug-2024 10:33:49 UTC] PHP Warning:  Undefined array key "mv_slider_title" in /var/www/html/wp-content/plugins/mv-slider/views/mv-slider_shortcode.php on line 1
+[07-Aug-2024 10:37:33 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:37:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(90): MV_Testimonials->__construct()
+#1 /var/www/html/wp-admin/includes/plugin.php(2387): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-admin/includes/plugin.php(673): plugin_sandbox_scrape('mv-testimonials...')
+#3 /var/www/html/wp-admin/plugins.php(60): activate_plugin('mv-testimonials...', 'http://localhos...', false)
+#4 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:37:34 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:37:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(90): MV_Testimonials->__construct()
+#1 /var/www/html/wp-admin/includes/plugin.php(2387): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-admin/includes/plugin.php(673): plugin_sandbox_scrape('mv-testimonials...')
+#3 /var/www/html/wp-admin/plugins.php(60): activate_plugin('mv-testimonials...', 'http://localhos...', false)
+#4 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:37:36 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:37:36 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(90): MV_Testimonials->__construct()
+#1 /var/www/html/wp-admin/includes/plugin.php(2387): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-admin/includes/plugin.php(673): plugin_sandbox_scrape('mv-testimonials...')
+#3 /var/www/html/wp-admin/plugins.php(60): activate_plugin('mv-testimonials...', 'http://localhos...', false)
+#4 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:38:20 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:38:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(90): MV_Testimonials->__construct()
+#1 /var/www/html/wp-admin/includes/plugin.php(2387): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-admin/includes/plugin.php(673): plugin_sandbox_scrape('mv-testimonials...')
+#3 /var/www/html/wp-admin/plugins.php(60): activate_plugin('mv-testimonials...', 'http://localhos...', false)
+#4 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:38:27 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:38:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(90): MV_Testimonials->__construct()
+#1 /var/www/html/wp-admin/includes/plugin.php(2387): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-admin/includes/plugin.php(673): plugin_sandbox_scrape('mv-testimonials...')
+#3 /var/www/html/wp-admin/plugins.php(60): activate_plugin('mv-testimonials...', 'http://localhos...', false)
+#4 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:40:00 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:40:00 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(90): MV_Testimonials->__construct()
+#1 /var/www/html/wp-admin/includes/plugin.php(2387): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-admin/includes/plugin.php(673): plugin_sandbox_scrape('mv-testimonials...')
+#3 /var/www/html/wp-admin/plugins.php(60): activate_plugin('mv-testimonials...', 'http://localhos...', false)
+#4 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:40:47 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:40:47 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(90): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/plugins.php(10): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:40:47 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:40:47 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(90): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#5 /var/www/html/index.php(17): require('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:41:29 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:41:29 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(90): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:23 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:23 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(90): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/plugins.php(10): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:23 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:23 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(90): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#5 /var/www/html/index.php(17): require('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:24 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:24 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(90): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/plugins.php(10): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:25 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(90): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#5 /var/www/html/index.php(17): require('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:25 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(90): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/plugins.php(10): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:25 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(90): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#5 /var/www/html/index.php(17): require('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:25 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(90): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/plugins.php(10): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:25 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(90): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#5 /var/www/html/index.php(17): require('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:25 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(90): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/plugins.php(10): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:25 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(90): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#5 /var/www/html/index.php(17): require('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:27 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(90): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/plugins.php(10): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:27 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(90): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#5 /var/www/html/index.php(17): require('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:29 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:29 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(90): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/plugins.php(10): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:29 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:29 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(90): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#5 /var/www/html/index.php(17): require('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:48 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(90): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/plugins.php(10): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:48 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(90): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#5 /var/www/html/index.php(17): require('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:48 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(90): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/plugins.php(10): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:48 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(90): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#5 /var/www/html/index.php(17): require('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:48 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(90): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/plugins.php(10): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:48 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(90): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#5 /var/www/html/index.php(17): require('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:48 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(90): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/plugins.php(10): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:49 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:49 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(90): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#5 /var/www/html/index.php(17): require('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:49 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:49 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(90): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/plugins.php(10): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:49 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:49 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(90): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#5 /var/www/html/index.php(17): require('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:49 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:49 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(90): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/plugins.php(10): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:49 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:49 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(90): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#5 /var/www/html/index.php(17): require('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:57 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(90): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/index.php(10): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:57 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:42:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-typs/class.mv-testimonals-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(90): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#5 /var/www/html/index.php(17): require('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[07-Aug-2024 10:46:43 UTC] PHP Warning:  Undefined array key "mv_slider_title" in /var/www/html/wp-content/plugins/mv-slider/views/mv-slider_shortcode.php on line 1
+[07-Aug-2024 10:51:55 UTC] PHP Fatal error:  Uncaught Error: Class "MV_Testimonals_Post_Type" not found in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:46
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(90): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/edit.php(10): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 46
+[07-Aug-2024 10:51:55 UTC] PHP Fatal error:  Uncaught Error: Class "MV_Testimonals_Post_Type" not found in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:46
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(90): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#5 /var/www/html/index.php(17): require('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 46
+[07-Aug-2024 11:33:18 UTC] PHP Warning:  Undefined array key "mv_slider_link_text" in /var/www/html/wp-content/plugins/mv-slider/post-types/class.mv-slider-cpt.php on line 130
+[07-Aug-2024 11:33:18 UTC] PHP Warning:  Undefined array key "mv_slider_link_url" in /var/www/html/wp-content/plugins/mv-slider/post-types/class.mv-slider-cpt.php on line 132
+[09-Aug-2024 09:21:48 UTC] Automatic updates starting...
+[09-Aug-2024 09:21:50 UTC]   Automatic theme updates starting...
+[09-Aug-2024 09:21:50 UTC]   Automatic theme updates complete.
+[09-Aug-2024 09:21:50 UTC] Automatic updates complete.
+[09-Aug-2024 10:50:12 UTC] PHP Fatal error:  Uncaught Error: Class "MV_Testimonials_Widget" not found in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:50
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(96): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 50
+[09-Aug-2024 10:52:07 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/widgets/class.mv-testimonals-widget.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 49
+[09-Aug-2024 10:52:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/widgets/class.mv-testimonals-widget.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:49
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(96): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 49
+[09-Aug-2024 10:57:06 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonials-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[09-Aug-2024 10:57:06 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonials-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(94): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/customize.php(13): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[09-Aug-2024 10:57:06 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonials-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[09-Aug-2024 10:57:06 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonials-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(94): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#5 /var/www/html/index.php(17): require('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[09-Aug-2024 10:57:07 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonials-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[09-Aug-2024 10:57:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonials-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(94): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/customize.php(13): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[09-Aug-2024 10:57:07 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonials-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[09-Aug-2024 10:57:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonials-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(94): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#5 /var/www/html/index.php(17): require('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[09-Aug-2024 10:57:07 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonials-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[09-Aug-2024 10:57:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonials-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(94): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/customize.php(13): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[09-Aug-2024 10:57:07 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonials-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[09-Aug-2024 10:57:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonials-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(94): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#5 /var/www/html/index.php(17): require('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[09-Aug-2024 10:57:07 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonials-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[09-Aug-2024 10:57:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonials-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(94): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/customize.php(13): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[09-Aug-2024 10:57:08 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonials-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[09-Aug-2024 10:57:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonials-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(94): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#5 /var/www/html/index.php(17): require('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[09-Aug-2024 10:57:08 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonials-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[09-Aug-2024 10:57:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonials-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(94): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/customize.php(13): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[09-Aug-2024 10:57:08 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonials-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[09-Aug-2024 10:57:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonials-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(94): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#5 /var/www/html/index.php(17): require('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[09-Aug-2024 10:57:09 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonials-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[09-Aug-2024 10:57:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonials-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(94): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/themes.php(10): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[09-Aug-2024 10:57:09 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonials-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[09-Aug-2024 10:57:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonials-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(94): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#5 /var/www/html/index.php(17): require('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[09-Aug-2024 10:57:09 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonials-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[09-Aug-2024 10:57:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonials-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(94): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/themes.php(10): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[09-Aug-2024 10:57:10 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonials-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[09-Aug-2024 10:57:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonials-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(94): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#5 /var/www/html/index.php(17): require('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[09-Aug-2024 10:57:11 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonials-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[09-Aug-2024 10:57:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonials-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(94): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/themes.php(10): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[09-Aug-2024 10:57:11 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonials-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[09-Aug-2024 10:57:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonials-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(94): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#5 /var/www/html/index.php(17): require('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[09-Aug-2024 10:57:19 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonials-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[09-Aug-2024 10:57:19 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonials-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(94): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[09-Aug-2024 11:00:38 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonials-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[09-Aug-2024 11:00:38 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonials-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(94): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[09-Aug-2024 11:00:39 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonials-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[09-Aug-2024 11:00:39 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonials-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(94): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/widgets.php(10): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[09-Aug-2024 11:00:39 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonials-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[09-Aug-2024 11:00:39 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonials-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(94): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#5 /var/www/html/index.php(17): require('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[09-Aug-2024 11:00:42 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonials-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[09-Aug-2024 11:00:42 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonials-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(94): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/themes.php(10): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[09-Aug-2024 11:00:42 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonials-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[09-Aug-2024 11:00:42 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonials-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(94): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#5 /var/www/html/index.php(17): require('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[09-Aug-2024 11:00:43 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonials-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[09-Aug-2024 11:00:43 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonials-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(94): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[09-Aug-2024 11:00:44 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonials-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[09-Aug-2024 11:00:44 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonials-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(94): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/themes.php(10): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[09-Aug-2024 11:00:44 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonials-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[09-Aug-2024 11:00:44 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonials-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php:45
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php(94): MV_Testimonials->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#5 /var/www/html/index.php(17): require('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-testimonials/mv-testimonials.php on line 45
+[11-Aug-2024 18:23:27 UTC] Automatic updates starting...
+[11-Aug-2024 18:23:29 UTC] Automatic updates complete.

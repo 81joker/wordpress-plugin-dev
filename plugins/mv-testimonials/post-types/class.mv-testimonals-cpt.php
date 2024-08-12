@@ -55,6 +55,7 @@ if( ! class_exists( 'MV_Testimonials_Post_Type' ) ){
         }
 
         public function save_post( $post_id ){
+            // is come from input hidden value
             if( isset( $_POST['mv_testimonials_nonce'] ) ){
                 if( ! wp_verify_nonce( $_POST['mv_testimonials_nonce'], 'mv_testimonials_nonce' ) ){
                     return;
