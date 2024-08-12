@@ -57,6 +57,29 @@ class MV_Testimonials_Widget extends WP_Widget {
 
     public function widget( $args, $instance ) {
 
+        $default_title = __( 'MV Testimonals' );
+		$title         = ( ! empty( $instance['title'] ) ) ? $instance['title'] : $default_title;
+		$number        = ( ! empty( $instance['number'] ) ) ? absint( $instance['number'] ) : 5;
+        $image = isset( $instance['image'] ) ? $instance['image'] : false;
+        $occupation = isset( $instance['occupation'] ) ? $instance['occupation'] : false;
+        $company = isset( $instance['company'] ) ? $instance['company'] : false;
+		// if ( ! $number ) {
+		// 	$number = 5;
+		// }
+
+		// echo $args['before_widget']; 
+        // echo $number;
+		// if ( $title ) {
+		// 	echo $args['before_title'] . $title . $args['after_title'];
+		// }
+
+        echo $args['before_widget'];
+        echo $args['before_title'] . $title . $args['after_title'];
+
+        require( MV_TESTIMONIALS_PATH . 'views/mv-testimonials_widget.php' );
+        
+        echo $args['after_widget'];
+
     }
 
     public function update( $new_instance, $old_instance ) {
