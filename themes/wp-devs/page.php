@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 <?php /* do_shortcode( $content:string, $ignore_html:boolean );  */?>
-<?php echo do_shortcode("[mv_slider]Slider Dev[/mv_slider] "); ?>
+<?php /* echo do_shortcode("[mv_slider]Slider Dev[/mv_slider] "); */ ?>
+<?php echo do_shortcode("[mv_imagetext]imagetext Dev[/mv_imagetext] "); ?>
 
 <?php if(header_image()): ?>
     <img src="<?php header_image(); ?>" height="<?php echo esc_attr( get_custom_header()->height ); ?>" width="<?php echo esc_attr( get_custom_header()->width ); ?>" alt="" />

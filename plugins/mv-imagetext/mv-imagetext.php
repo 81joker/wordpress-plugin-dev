@@ -40,15 +40,15 @@ if( ! class_exists( 'MV_ImageText' ) ){
             
             add_action( 'admin_menu', array( $this, 'add_menu' ) );
 
-            // require_once(MV_ImageText_PATH . 'post-types/class.mv-slider-cpt.php');
-            // $MV_ImageText_Post_Type = new MV_ImageText_Post_Type();
+            require_once(MV_ImageText_PATH . 'post-types/class.mv-imagetext-cpt.php');
+            $MV_ImageText_Post_Type = new MV_ImageText_Post_Type();
 
 
-            // require_once( MV_ImageText_PATH . 'class.mv-slider-settings.php' );
-            // $MV_ImageText_Settings = new MV_ImageText_Settings();
+            require_once( MV_ImageText_PATH . 'class.mv-imagetex-settings.php' );
+            $MV_ImageText_Settings = new MV_ImageText_Settings();
 
-            // require_once( MV_ImageText_PATH . 'shortcodes/class.mv-slider-shortcode.php' );
-            // $MV_ImageText_Shortcode = new MV_ImageText_Shortcode;
+            require_once( MV_ImageText_PATH . 'shortcodes/class.mv-imagetext-shortcode.php' );
+            $MV_ImageText_Shortcode = new MV_ImageText_Shortcode;
             
             // add_action('wp_enqueue_scripts' , array($this , 'register_scripts'), 999);
             // // add style and js to admin
@@ -80,14 +80,14 @@ if( ! class_exists( 'MV_ImageText' ) ){
             // add_plugins_page(
 
             // This diplay page Title in Dashboard (page Title)
-                'MV Image Text Options',
+                'MV Image&Text Options',
 
                 // This diplay menue Title in Dashboard (menue Title)
-                'MV Image Text',
+                'MV Image&Text',
                 'manage_options',
                 'mv_imagetext_admin',
                 array( $this, 'mv_imagetext_settings_page' ),
-                'dashicons-images-alt2'
+                'dashicons-cover-image'
             );
             /*
              add_submenu_page(
@@ -101,8 +101,8 @@ if( ! class_exists( 'MV_ImageText' ) ){
             */
             add_submenu_page(
                 'mv_imagetext_admin',
-                'Manage Slides',
-                'Manage Slides',
+                'Manage Image&Text',
+                'Manage Image&Text',
                 'manage_options',
                 'edit.php?post_type=mv-imagetext',
                 null,
@@ -111,8 +111,8 @@ if( ! class_exists( 'MV_ImageText' ) ){
 
             add_submenu_page(
                 'mv_imagetext_admin',
-                'Add New Slide',
-                'Add New Slide',
+                'Add New Image&Text',
+                'Add New Image&Text',
                 'manage_options',
                 'post-new.php?post_type=mv-imagetext',
                 null,
@@ -125,14 +125,14 @@ if( ! class_exists( 'MV_ImageText' ) ){
             if (! current_user_can('manage_options')) {
                 return;
             }
-            // if (isset($_GET['settings-updated'])) {
-            //     // add_settings_error( $setting:string, $code:string, $message:string, $type:string )
-            //     add_settings_error('mv_slider_options' , 'mv_slider_message' , 'Settings Saved','success');
-            // } 
+            if (isset($_GET['settings-updated'])) {
+                // add_settings_error( $setting:string, $code:string, $message:string, $type:string )
+                add_settings_error('mv_slider_options' , 'mv_slider_message' , 'Settings Saved','success');
+            } 
             // settings_errors( $setting:string, $sanitize:boolean, $hide_on_update:boolean )
             settings_errors('mv_imagetext_options');
 
-            require_once( MV_SLIDER_PATH . 'views/settings-page.php' );
+            require_once( MV_ImageText_PATH . 'views/settings-page.php' );
 
         }
 

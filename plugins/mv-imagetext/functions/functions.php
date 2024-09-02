@@ -1,9 +1,10 @@
 <?php
+if( ! function_exists( 'mv_imagetext_get_placeholder_image' )){
 // if( ! function_exists( 'mv_slider_get_placeholder_image' )){
-//     function mv_slider_get_placeholder_image(){
-//         return "<img src='" . MV_SLIDER_URL . "assets/images/default.jpg' class='img-fluid wp-post-image' />";
-//     }
-// }
+    function mv_imagetext_get_placeholder_image(){
+        return "<img src='" . MV_ImageText_URL . "assets/images/default.jpg' class='img-fluid wp-post-image' />";
+    }
+}
 
 
 //TODO reverice div

@@ -1915,3 +1915,300 @@ Stack trace:
 [02-Sep-2024 13:05:04 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /var/www/html/wp-content/plugins/show-current-template/show-current-template.php on line 169
 [02-Sep-2024 13:05:04 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /var/www/html/wp-content/plugins/show-current-template/show-current-template.php on line 169
 [02-Sep-2024 13:58:28 UTC] PHP Parse error:  Unclosed '{' on line 750 in /var/www/html/wp-content/themes/twentytwenty/functions.php on line 815
+[02-Sep-2024 14:32:27 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-imagetext/post-types/class.mv-slider-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php on line 43
+[02-Sep-2024 14:32:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-imagetext/post-types/class.mv-slider-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php:43
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php(164): MV_ImageText->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php on line 43
+[02-Sep-2024 14:33:04 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-imagetext/post-types/class.mv-slider-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php on line 43
+[02-Sep-2024 14:33:04 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-imagetext/post-types/class.mv-slider-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php:43
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php(164): MV_ImageText->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php on line 43
+[02-Sep-2024 14:33:04 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-imagetext/post-types/class.mv-slider-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php on line 43
+[02-Sep-2024 14:33:04 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-imagetext/post-types/class.mv-slider-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php:43
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php(164): MV_ImageText->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#5 /var/www/html/index.php(17): require('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php on line 43
+[02-Sep-2024 14:33:07 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-imagetext/post-types/class.mv-slider-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php on line 43
+[02-Sep-2024 14:33:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-imagetext/post-types/class.mv-slider-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php:43
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php(164): MV_ImageText->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php on line 43
+[02-Sep-2024 14:33:07 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-imagetext/post-types/class.mv-slider-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php on line 43
+[02-Sep-2024 14:33:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-imagetext/post-types/class.mv-slider-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php:43
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php(164): MV_ImageText->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#5 /var/www/html/index.php(17): require('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php on line 43
+[02-Sep-2024 14:33:08 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-imagetext/post-types/class.mv-slider-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php on line 43
+[02-Sep-2024 14:33:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-imagetext/post-types/class.mv-slider-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php:43
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php(164): MV_ImageText->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php on line 43
+[02-Sep-2024 14:33:08 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-imagetext/post-types/class.mv-slider-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php on line 43
+[02-Sep-2024 14:33:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-imagetext/post-types/class.mv-slider-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php:43
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php(164): MV_ImageText->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#5 /var/www/html/index.php(17): require('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php on line 43
+[02-Sep-2024 14:33:10 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-imagetext/post-types/class.mv-slider-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php on line 43
+[02-Sep-2024 14:33:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-imagetext/post-types/class.mv-slider-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php:43
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php(164): MV_ImageText->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php on line 43
+[02-Sep-2024 14:33:10 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-imagetext/post-types/class.mv-slider-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php on line 43
+[02-Sep-2024 14:33:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-imagetext/post-types/class.mv-slider-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php:43
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php(164): MV_ImageText->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#5 /var/www/html/index.php(17): require('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php on line 43
+[02-Sep-2024 14:33:10 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-imagetext/post-types/class.mv-slider-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php on line 43
+[02-Sep-2024 14:33:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-imagetext/post-types/class.mv-slider-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php:43
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php(164): MV_ImageText->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php on line 43
+[02-Sep-2024 14:33:10 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-imagetext/post-types/class.mv-slider-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php on line 43
+[02-Sep-2024 14:33:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-imagetext/post-types/class.mv-slider-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php:43
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php(164): MV_ImageText->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#5 /var/www/html/index.php(17): require('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php on line 43
+[02-Sep-2024 14:34:51 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-imagetext/post-types/class.mv-slider-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php on line 43
+[02-Sep-2024 14:34:51 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-imagetext/post-types/class.mv-slider-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php:43
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php(164): MV_ImageText->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php on line 43
+[02-Sep-2024 14:34:51 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-imagetext/post-types/class.mv-slider-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php on line 43
+[02-Sep-2024 14:34:51 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-imagetext/post-types/class.mv-slider-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php:43
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php(164): MV_ImageText->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#5 /var/www/html/index.php(17): require('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php on line 43
+[02-Sep-2024 14:34:53 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-imagetext/post-types/class.mv-slider-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php on line 43
+[02-Sep-2024 14:34:53 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-imagetext/post-types/class.mv-slider-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php:43
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php(164): MV_ImageText->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php on line 43
+[02-Sep-2024 14:34:53 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-imagetext/post-types/class.mv-slider-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php on line 43
+[02-Sep-2024 14:34:53 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-imagetext/post-types/class.mv-slider-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php:43
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php(164): MV_ImageText->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#5 /var/www/html/index.php(17): require('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php on line 43
+[02-Sep-2024 14:35:02 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-imagetext/post-types/class.mv-slider-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php on line 43
+[02-Sep-2024 14:35:02 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-imagetext/post-types/class.mv-slider-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php:43
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php(164): MV_ImageText->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/index.php(10): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php on line 43
+[02-Sep-2024 14:35:02 UTC] PHP Warning:  require_once(/var/www/html/wp-content/plugins/mv-imagetext/post-types/class.mv-slider-cpt.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php on line 43
+[02-Sep-2024 14:35:02 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-imagetext/post-types/class.mv-slider-cpt.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php:43
+Stack trace:
+#0 /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php(164): MV_ImageText->__construct()
+#1 /var/www/html/wp-settings.php(522): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(140): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#5 /var/www/html/index.php(17): require('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-imagetext/mv-imagetext.php on line 43
+[02-Sep-2024 15:11:49 UTC] PHP Warning:  Undefined array key "mv_testimonials_occupation" in /var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonals-cpt.php on line 80
+[02-Sep-2024 15:11:49 UTC] PHP Warning:  Undefined array key "mv_testimonials_company" in /var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonals-cpt.php on line 82
+[02-Sep-2024 15:11:49 UTC] PHP Warning:  Undefined array key "mv_testimonials_user_url" in /var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonals-cpt.php on line 84
+[02-Sep-2024 15:11:49 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-Sep-2024 15:15:16 UTC] PHP Warning:  plugins_api(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /var/www/html/wp-includes/functions.php on line 6085
+[02-Sep-2024 15:15:19 UTC] PHP Warning:  plugins_api(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /var/www/html/wp-includes/functions.php on line 6085
+[02-Sep-2024 15:16:48 UTC] PHP Warning:  Undefined array key "mv_testimonials_occupation" in /var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonals-cpt.php on line 80
+[02-Sep-2024 15:16:48 UTC] PHP Warning:  Undefined array key "mv_testimonials_company" in /var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonals-cpt.php on line 82
+[02-Sep-2024 15:16:48 UTC] PHP Warning:  Undefined array key "mv_testimonials_user_url" in /var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonals-cpt.php on line 84
+[02-Sep-2024 15:16:48 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-Sep-2024 15:31:51 UTC] PHP Warning:  Undefined array key "mv_slider_link_text" in /var/www/html/wp-content/plugins/mv-slider/post-types/class.mv-slider-cpt.php on line 130
+[02-Sep-2024 15:31:51 UTC] PHP Warning:  Undefined array key "mv_slider_link_url" in /var/www/html/wp-content/plugins/mv-slider/post-types/class.mv-slider-cpt.php on line 132
+[02-Sep-2024 15:31:51 UTC] PHP Warning:  Undefined array key "mv_testimonials_occupation" in /var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonals-cpt.php on line 80
+[02-Sep-2024 15:31:51 UTC] PHP Warning:  Undefined array key "mv_testimonials_company" in /var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonals-cpt.php on line 82
+[02-Sep-2024 15:31:51 UTC] PHP Warning:  Undefined array key "mv_testimonials_user_url" in /var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonals-cpt.php on line 84
+[02-Sep-2024 15:31:51 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-Sep-2024 15:32:46 UTC] PHP Warning:  Undefined array key "mv_slider_link_text" in /var/www/html/wp-content/plugins/mv-slider/post-types/class.mv-slider-cpt.php on line 130
+[02-Sep-2024 15:32:46 UTC] PHP Warning:  Undefined array key "mv_slider_link_url" in /var/www/html/wp-content/plugins/mv-slider/post-types/class.mv-slider-cpt.php on line 132
+[02-Sep-2024 15:32:46 UTC] PHP Warning:  Undefined array key "mv_testimonials_occupation" in /var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonals-cpt.php on line 80
+[02-Sep-2024 15:32:46 UTC] PHP Warning:  Undefined array key "mv_testimonials_company" in /var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonals-cpt.php on line 82
+[02-Sep-2024 15:32:46 UTC] PHP Warning:  Undefined array key "mv_testimonials_user_url" in /var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonals-cpt.php on line 84
+[02-Sep-2024 15:32:46 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-Sep-2024 15:33:14 UTC] PHP Warning:  Undefined array key "mv_slider_link_text" in /var/www/html/wp-content/plugins/mv-slider/post-types/class.mv-slider-cpt.php on line 130
+[02-Sep-2024 15:33:14 UTC] PHP Warning:  Undefined array key "mv_slider_link_url" in /var/www/html/wp-content/plugins/mv-slider/post-types/class.mv-slider-cpt.php on line 132
+[02-Sep-2024 15:33:14 UTC] PHP Warning:  Undefined array key "mv_testimonials_occupation" in /var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonals-cpt.php on line 80
+[02-Sep-2024 15:33:14 UTC] PHP Warning:  Undefined array key "mv_testimonials_company" in /var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonals-cpt.php on line 82
+[02-Sep-2024 15:33:14 UTC] PHP Warning:  Undefined array key "mv_testimonials_user_url" in /var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonals-cpt.php on line 84
+[02-Sep-2024 15:33:14 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-Sep-2024 16:04:11 UTC] PHP Warning:  require(/var/www/html/wp-content/plugins/mv-imagetext/views/mv-imagetext_shortcode.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-imagetext/shortcodes/class.mv-imagetext-shortcode.php on line 48
+[02-Sep-2024 16:04:11 UTC] PHP Warning:  Undefined array key "file" in /var/www/html/wp-content/plugins/query-monitor/collectors/php_errors.php on line 364
+[02-Sep-2024 16:04:11 UTC] PHP Warning:  Undefined array key "line" in /var/www/html/wp-content/plugins/query-monitor/collectors/php_errors.php on line 364
+[02-Sep-2024 16:04:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-imagetext/views/mv-imagetext_shortcode.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-imagetext/shortcodes/class.mv-imagetext-shortcode.php:48
+Stack trace:
+#0 /var/www/html/wp-includes/shortcodes.php(434): MV_ImageText_Shortcode->add_shortcode(Array, 'imagetext Dev', 'mv_imagetext')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(mv_ima...', 'do_shortcode_ta...', '[mv_imagetext]i...')
+#3 /var/www/html/wp-content/themes/wp-devs/page.php(4): do_shortcode('[mv_imagetext]i...')
+#4 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-imagetext/shortcodes/class.mv-imagetext-shortcode.php on line 48
+[02-Sep-2024 16:04:50 UTC] PHP Warning:  require(/var/www/html/wp-content/plugins/mv-imagetext/views/mv-imagetext_shortcode.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/mv-imagetext/shortcodes/class.mv-imagetext-shortcode.php on line 48
+[02-Sep-2024 16:04:50 UTC] PHP Warning:  Undefined array key "file" in /var/www/html/wp-content/plugins/query-monitor/collectors/php_errors.php on line 364
+[02-Sep-2024 16:04:50 UTC] PHP Warning:  Undefined array key "line" in /var/www/html/wp-content/plugins/query-monitor/collectors/php_errors.php on line 364
+[02-Sep-2024 16:04:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/mv-imagetext/views/mv-imagetext_shortcode.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/mv-imagetext/shortcodes/class.mv-imagetext-shortcode.php:48
+Stack trace:
+#0 /var/www/html/wp-includes/shortcodes.php(434): MV_ImageText_Shortcode->add_shortcode(Array, 'imagetext Dev', 'mv_imagetext')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(mv_ima...', 'do_shortcode_ta...', '[mv_imagetext]i...')
+#3 /var/www/html/wp-content/themes/wp-devs/page.php(4): do_shortcode('[mv_imagetext]i...')
+#4 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/plugins/mv-imagetext/shortcodes/class.mv-imagetext-shortcode.php on line 48
+[02-Sep-2024 16:32:41 UTC] PHP Warning:  Undefined array key "mv_slider_link_text" in /var/www/html/wp-content/plugins/mv-slider/post-types/class.mv-slider-cpt.php on line 130
+[02-Sep-2024 16:32:41 UTC] PHP Warning:  Undefined array key "mv_slider_link_url" in /var/www/html/wp-content/plugins/mv-slider/post-types/class.mv-slider-cpt.php on line 132
+[02-Sep-2024 16:32:41 UTC] PHP Warning:  Undefined array key "mv_testimonials_occupation" in /var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonals-cpt.php on line 80
+[02-Sep-2024 16:32:41 UTC] PHP Warning:  Undefined array key "mv_testimonials_company" in /var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonals-cpt.php on line 82
+[02-Sep-2024 16:32:41 UTC] PHP Warning:  Undefined array key "mv_testimonials_user_url" in /var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonals-cpt.php on line 84
+[02-Sep-2024 16:32:41 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-Sep-2024 16:46:07 UTC] PHP Warning:  Undefined variable $counter in /var/www/html/wp-content/plugins/mv-imagetext/views/mv-imagetext_shortcode.php on line 25
+[02-Sep-2024 16:46:07 UTC] PHP Warning:  Undefined variable $counter in /var/www/html/wp-content/plugins/mv-imagetext/views/mv-imagetext_shortcode.php on line 26
+[02-Sep-2024 16:46:07 UTC] PHP Warning:  Undefined variable $counter in /var/www/html/wp-content/plugins/mv-imagetext/views/mv-imagetext_shortcode.php on line 25
+[02-Sep-2024 16:46:07 UTC] PHP Warning:  Undefined variable $counter in /var/www/html/wp-content/plugins/mv-imagetext/views/mv-imagetext_shortcode.php on line 26
+[02-Sep-2024 16:46:26 UTC] PHP Warning:  Undefined variable $counter in /var/www/html/wp-content/plugins/mv-imagetext/views/mv-imagetext_shortcode.php on line 25
+[02-Sep-2024 16:46:26 UTC] PHP Warning:  Undefined variable $counter in /var/www/html/wp-content/plugins/mv-imagetext/views/mv-imagetext_shortcode.php on line 26
+[02-Sep-2024 16:46:26 UTC] PHP Warning:  Undefined variable $counter in /var/www/html/wp-content/plugins/mv-imagetext/views/mv-imagetext_shortcode.php on line 25
+[02-Sep-2024 16:46:26 UTC] PHP Warning:  Undefined variable $counter in /var/www/html/wp-content/plugins/mv-imagetext/views/mv-imagetext_shortcode.php on line 26
+[02-Sep-2024 16:46:43 UTC] PHP Warning:  Undefined variable $counter in /var/www/html/wp-content/plugins/mv-imagetext/views/mv-imagetext_shortcode.php on line 25
+[02-Sep-2024 16:46:43 UTC] PHP Warning:  Undefined variable $counter in /var/www/html/wp-content/plugins/mv-imagetext/views/mv-imagetext_shortcode.php on line 26
+[02-Sep-2024 16:46:43 UTC] PHP Warning:  Undefined variable $counter in /var/www/html/wp-content/plugins/mv-imagetext/views/mv-imagetext_shortcode.php on line 25
+[02-Sep-2024 16:46:43 UTC] PHP Warning:  Undefined variable $counter in /var/www/html/wp-content/plugins/mv-imagetext/views/mv-imagetext_shortcode.php on line 26
+[02-Sep-2024 16:47:13 UTC] PHP Warning:  Undefined variable $counter in /var/www/html/wp-content/plugins/mv-imagetext/views/mv-imagetext_shortcode.php on line 25
+[02-Sep-2024 16:47:13 UTC] PHP Warning:  Undefined variable $counter in /var/www/html/wp-content/plugins/mv-imagetext/views/mv-imagetext_shortcode.php on line 26
+[02-Sep-2024 16:47:13 UTC] PHP Warning:  Undefined variable $counter in /var/www/html/wp-content/plugins/mv-imagetext/views/mv-imagetext_shortcode.php on line 25
+[02-Sep-2024 16:47:13 UTC] PHP Warning:  Undefined variable $counter in /var/www/html/wp-content/plugins/mv-imagetext/views/mv-imagetext_shortcode.php on line 26
+[02-Sep-2024 16:47:14 UTC] PHP Warning:  Undefined variable $counter in /var/www/html/wp-content/plugins/mv-imagetext/views/mv-imagetext_shortcode.php on line 25
+[02-Sep-2024 16:47:14 UTC] PHP Warning:  Undefined variable $counter in /var/www/html/wp-content/plugins/mv-imagetext/views/mv-imagetext_shortcode.php on line 26
+[02-Sep-2024 16:47:14 UTC] PHP Warning:  Undefined variable $counter in /var/www/html/wp-content/plugins/mv-imagetext/views/mv-imagetext_shortcode.php on line 25
+[02-Sep-2024 16:47:14 UTC] PHP Warning:  Undefined variable $counter in /var/www/html/wp-content/plugins/mv-imagetext/views/mv-imagetext_shortcode.php on line 26
+[02-Sep-2024 16:47:14 UTC] PHP Warning:  Undefined variable $counter in /var/www/html/wp-content/plugins/mv-imagetext/views/mv-imagetext_shortcode.php on line 25
+[02-Sep-2024 16:47:14 UTC] PHP Warning:  Undefined variable $counter in /var/www/html/wp-content/plugins/mv-imagetext/views/mv-imagetext_shortcode.php on line 26
+[02-Sep-2024 16:47:14 UTC] PHP Warning:  Undefined variable $counter in /var/www/html/wp-content/plugins/mv-imagetext/views/mv-imagetext_shortcode.php on line 25
+[02-Sep-2024 16:47:14 UTC] PHP Warning:  Undefined variable $counter in /var/www/html/wp-content/plugins/mv-imagetext/views/mv-imagetext_shortcode.php on line 26
+[02-Sep-2024 16:47:20 UTC] PHP Warning:  Undefined variable $counter in /var/www/html/wp-content/plugins/mv-imagetext/views/mv-imagetext_shortcode.php on line 25
+[02-Sep-2024 16:47:20 UTC] PHP Warning:  Undefined variable $counter in /var/www/html/wp-content/plugins/mv-imagetext/views/mv-imagetext_shortcode.php on line 26
+[02-Sep-2024 16:47:20 UTC] PHP Warning:  Undefined variable $counter in /var/www/html/wp-content/plugins/mv-imagetext/views/mv-imagetext_shortcode.php on line 25
+[02-Sep-2024 16:47:20 UTC] PHP Warning:  Undefined variable $counter in /var/www/html/wp-content/plugins/mv-imagetext/views/mv-imagetext_shortcode.php on line 26
+[02-Sep-2024 16:47:20 UTC] PHP Warning:  Undefined variable $counter in /var/www/html/wp-content/plugins/mv-imagetext/views/mv-imagetext_shortcode.php on line 25
+[02-Sep-2024 16:47:20 UTC] PHP Warning:  Undefined variable $counter in /var/www/html/wp-content/plugins/mv-imagetext/views/mv-imagetext_shortcode.php on line 26
+[02-Sep-2024 16:47:20 UTC] PHP Warning:  Undefined variable $counter in /var/www/html/wp-content/plugins/mv-imagetext/views/mv-imagetext_shortcode.php on line 25
+[02-Sep-2024 16:47:20 UTC] PHP Warning:  Undefined variable $counter in /var/www/html/wp-content/plugins/mv-imagetext/views/mv-imagetext_shortcode.php on line 26
+[02-Sep-2024 16:47:21 UTC] PHP Warning:  Undefined variable $counter in /var/www/html/wp-content/plugins/mv-imagetext/views/mv-imagetext_shortcode.php on line 25
+[02-Sep-2024 16:47:21 UTC] PHP Warning:  Undefined variable $counter in /var/www/html/wp-content/plugins/mv-imagetext/views/mv-imagetext_shortcode.php on line 26
+[02-Sep-2024 16:47:21 UTC] PHP Warning:  Undefined variable $counter in /var/www/html/wp-content/plugins/mv-imagetext/views/mv-imagetext_shortcode.php on line 25
+[02-Sep-2024 16:47:21 UTC] PHP Warning:  Undefined variable $counter in /var/www/html/wp-content/plugins/mv-imagetext/views/mv-imagetext_shortcode.php on line 26
+[02-Sep-2024 16:47:21 UTC] PHP Warning:  Undefined variable $counter in /var/www/html/wp-content/plugins/mv-imagetext/views/mv-imagetext_shortcode.php on line 25
+[02-Sep-2024 16:47:21 UTC] PHP Warning:  Undefined variable $counter in /var/www/html/wp-content/plugins/mv-imagetext/views/mv-imagetext_shortcode.php on line 26
+[02-Sep-2024 16:47:21 UTC] PHP Warning:  Undefined variable $counter in /var/www/html/wp-content/plugins/mv-imagetext/views/mv-imagetext_shortcode.php on line 25
+[02-Sep-2024 16:47:21 UTC] PHP Warning:  Undefined variable $counter in /var/www/html/wp-content/plugins/mv-imagetext/views/mv-imagetext_shortcode.php on line 26
+[02-Sep-2024 16:47:22 UTC] PHP Warning:  Undefined variable $counter in /var/www/html/wp-content/plugins/mv-imagetext/views/mv-imagetext_shortcode.php on line 25
+[02-Sep-2024 16:47:22 UTC] PHP Warning:  Undefined variable $counter in /var/www/html/wp-content/plugins/mv-imagetext/views/mv-imagetext_shortcode.php on line 26
+[02-Sep-2024 16:47:22 UTC] PHP Warning:  Undefined variable $counter in /var/www/html/wp-content/plugins/mv-imagetext/views/mv-imagetext_shortcode.php on line 25
+[02-Sep-2024 16:47:22 UTC] PHP Warning:  Undefined variable $counter in /var/www/html/wp-content/plugins/mv-imagetext/views/mv-imagetext_shortcode.php on line 26
+[02-Sep-2024 16:47:22 UTC] PHP Warning:  Undefined variable $counter in /var/www/html/wp-content/plugins/mv-imagetext/views/mv-imagetext_shortcode.php on line 25
+[02-Sep-2024 16:47:22 UTC] PHP Warning:  Undefined variable $counter in /var/www/html/wp-content/plugins/mv-imagetext/views/mv-imagetext_shortcode.php on line 26
+[02-Sep-2024 16:47:22 UTC] PHP Warning:  Undefined variable $counter in /var/www/html/wp-content/plugins/mv-imagetext/views/mv-imagetext_shortcode.php on line 25
+[02-Sep-2024 16:47:22 UTC] PHP Warning:  Undefined variable $counter in /var/www/html/wp-content/plugins/mv-imagetext/views/mv-imagetext_shortcode.php on line 26
+[02-Sep-2024 16:52:16 UTC] PHP Warning:  Undefined array key "mv_slider_link_text" in /var/www/html/wp-content/plugins/mv-slider/post-types/class.mv-slider-cpt.php on line 130
+[02-Sep-2024 16:52:16 UTC] PHP Warning:  Undefined array key "mv_slider_link_url" in /var/www/html/wp-content/plugins/mv-slider/post-types/class.mv-slider-cpt.php on line 132
+[02-Sep-2024 16:52:16 UTC] PHP Warning:  Undefined array key "mv_testimonials_occupation" in /var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonals-cpt.php on line 80
+[02-Sep-2024 16:52:16 UTC] PHP Warning:  Undefined array key "mv_testimonials_company" in /var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonals-cpt.php on line 82
+[02-Sep-2024 16:52:16 UTC] PHP Warning:  Undefined array key "mv_testimonials_user_url" in /var/www/html/wp-content/plugins/mv-testimonials/post-types/class.mv-testimonals-cpt.php on line 84
+[02-Sep-2024 16:52:16 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-Sep-2024 16:53:05 UTC] Automatic updates starting...
+[02-Sep-2024 16:53:05 UTC] Automatic updates complete.
