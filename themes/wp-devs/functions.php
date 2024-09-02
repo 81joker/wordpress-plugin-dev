@@ -12,6 +12,14 @@ function modify_body_classes($classes , $class){
  }
  add_filter('body_class' , 'modify_body_classes' , 10 , 2);
 
+
+	// Set content-width.
+	global $content_width;
+	if ( ! isset( $content_width ) ) {
+		$content_width = 580;
+	}
+
+
 function wpdevs_load_scripts(){
     wp_enqueue_style( 'wpdevs-style', get_stylesheet_uri(), array(), filemtime( get_template_directory() . '/style.css' ), 'all' );
     wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap', array(), null );
@@ -79,6 +87,9 @@ function wpdevs_config(){
 
 }
 add_action( 'after_setup_theme', 'wpdevs_config', 0 );
+
+
+
 
 // Registers a new block style.
  

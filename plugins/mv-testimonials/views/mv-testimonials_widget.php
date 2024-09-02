@@ -14,7 +14,7 @@
             $url_meta = get_post_meta( get_the_ID(), 'mv_testimonials_user_url', true );
             $occupation_meta = get_post_meta( get_the_ID(), 'mv_testimonials_occupation', true );
             $company_meta = get_post_meta( get_the_ID(), 'mv_testimonials_company', true );
-            var_dump(the_title());
+            // var_dump(the_title());
 ?>
     <div class="testimonial-item">
         <div class="title">
