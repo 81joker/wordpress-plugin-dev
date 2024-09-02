@@ -24,6 +24,10 @@
  * Block Editor Settings
  */
 
+
+
+add_theme_support( 'mv-testimonials' );
+
 /**
  * Sets up theme defaults and registers support for various WordPress features.
  *
