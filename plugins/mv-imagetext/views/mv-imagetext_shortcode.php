@@ -23,23 +23,23 @@
             $order_image = ($counter % 2 === 0) ? 'order-md-1' : 'order-md-2';
             $order_text = ($counter % 2 === 0) ? 'order-md-2' : 'order-md-1';
             ?>      
-            <div class="container">
+            <div class="container my-5 py-5">
                 <div class="row align-items-center">
                     <div class="col-md-6 <?php echo $order_image; ?>">
                         <?php 
                         if( has_post_thumbnail() ){
-                            the_post_thumbnail( 'full', array( 'class' => 'img-fluid w-100','style' => 'height: 300px; object-fit: cover;'  ) );
+                            the_post_thumbnail( 'full', array( 'class' => 'img-fluid w-100 shadow-lg  rounded','style' => 'max-height: 400px; object-fit: cover;'  ) );
                         } else {
                             echo mv_imagetext_get_placeholder_image();
                         }
                         ?>  
                     </div>
-                    <div class="col-md-5 ml-auto <?php echo $order_text; ?>">
+                    <div class="col-md-5 ml-auto <?php echo $order_text; ?> mx-4">
                         <div class="site-section-title mb-3">
-                            <h2 class="text-success"><?php the_title(); ?></h2>
+                            <h2 class="text-uppercase text-dark font-monospace"><?php the_title(); ?></h2>
                         </div>
-                        <p><?php the_content(); ?></p>
-                        <a class="btn btn-primary" href="<?php echo esc_attr( $button_url ); ?>"><?php echo esc_html( $button_text ); ?></a>
+                        <p class="lh-base"><?php the_content(); ?></p>
+                        <a type="button" class="btn btn-dark text-white" href="<?php echo esc_attr( $button_url ); ?>"><?php echo esc_html( $button_text ); ?></a>
                     </div>
                 </div>
             </div>
